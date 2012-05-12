@@ -29,7 +29,7 @@
 		A573A388155E8CD100F3587A /* GCDTimerBlockingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GCDTimerBlockingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A573A38C155E8CD100F3587A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A573A38F155E8CD100F3587A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A573A392155E8CD100F3587A /* GCDTimerBlockingTest-Prefix.pch */ = {isa = PBXFileReference; path = "GCDTimerBlockingTest-Prefix.pch"; sourceTree = "<group>"; };
+		A573A392155E8CD100F3587A /* GCDTimerBlockingTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCDTimerBlockingTest-Prefix.pch"; sourceTree = "<group>"; };
 		A573A393155E8CD100F3587A /* GCDTimerBlockingTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GCDTimerBlockingTest.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
