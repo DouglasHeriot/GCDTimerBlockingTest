@@ -10,7 +10,6 @@
 
 int main(int argc, const char * argv[])
 {
-
 	@autoreleasepool {
 	    
 	    // insert code here...
@@ -21,14 +20,15 @@ int main(int argc, const char * argv[])
 		dispatch_source_set_timer(timer, DISPATCH_TIME_NOW, 1 * NSEC_PER_SEC, 0);
 		dispatch_resume(timer);
 		dispatch_source_set_event_handler(timer, ^{
-			NSLog(@"Tick!");
+			unsigned long long ticks = dispatch_source_get_data(timer);
+			NSLog(@"Has ticked %llu time(s)", ticks);
 			sleep(3);
 		});
 		
 		sleep(4);
 		dispatch_suspend(timer);
 		
-		[[NSRunLoop mainRunLoop] run];
+//		[[NSRunLoop mainRunLoop] run];
 	}
     return 0;
 }
