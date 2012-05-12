@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A573A38D155E8CD100F3587A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A573A38C155E8CD100F3587A /* Foundation.framework */; };
+		A573A390155E8CD100F3587A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A573A38F155E8CD100F3587A /* main.m */; };
+		A573A394155E8CD100F3587A /* GCDTimerBlockingTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A573A393155E8CD100F3587A /* GCDTimerBlockingTest.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A573A386155E8CD100F3587A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A573A394155E8CD100F3587A /* GCDTimerBlockingTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A573A388155E8CD100F3587A /* GCDTimerBlockingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GCDTimerBlockingTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A573A38C155E8CD100F3587A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A573A38F155E8CD100F3587A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A573A392155E8CD100F3587A /* GCDTimerBlockingTest-Prefix.pch */ = {isa = PBXFileReference; path = "GCDTimerBlockingTest-Prefix.pch"; sourceTree = "<group>"; };
+		A573A393155E8CD100F3587A /* GCDTimerBlockingTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GCDTimerBlockingTest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A573A385155E8CD100F3587A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A573A38D155E8CD100F3587A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A573A37D155E8CCF00F3587A = {
+			isa = PBXGroup;
+			children = (
+				A573A38E155E8CD100F3587A /* GCDTimerBlockingTest */,
+				A573A38B155E8CD100F3587A /* Frameworks */,
+				A573A389155E8CD100F3587A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A573A389155E8CD100F3587A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A573A388155E8CD100F3587A /* GCDTimerBlockingTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A573A38B155E8CD100F3587A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A573A38C155E8CD100F3587A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A573A38E155E8CD100F3587A /* GCDTimerBlockingTest */ = {
+			isa = PBXGroup;
+			children = (
+				A573A38F155E8CD100F3587A /* main.m */,
+				A573A393155E8CD100F3587A /* GCDTimerBlockingTest.1 */,
+				A573A391155E8CD100F3587A /* Supporting Files */,
+			);
+			path = GCDTimerBlockingTest;
+			sourceTree = "<group>";
+		};
+		A573A391155E8CD100F3587A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A573A392155E8CD100F3587A /* GCDTimerBlockingTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A573A387155E8CD100F3587A /* GCDTimerBlockingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A573A397155E8CD100F3587A /* Build configuration list for PBXNativeTarget "GCDTimerBlockingTest" */;
+			buildPhases = (
+				A573A384155E8CD100F3587A /* Sources */,
+				A573A385155E8CD100F3587A /* Frameworks */,
+				A573A386155E8CD100F3587A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDTimerBlockingTest;
+			productName = GCDTimerBlockingTest;
+			productReference = A573A388155E8CD100F3587A /* GCDTimerBlockingTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A573A37F155E8CCF00F3587A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Douglas Heriot Design";
+			};
+			buildConfigurationList = A573A382155E8CCF00F3587A /* Build configuration list for PBXProject "GCDTimerBlockingTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A573A37D155E8CCF00F3587A;
+			productRefGroup = A573A389155E8CD100F3587A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A573A387155E8CD100F3587A /* GCDTimerBlockingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A573A384155E8CD100F3587A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A573A390155E8CD100F3587A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A573A395155E8CD100F3587A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A573A396155E8CD100F3587A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A573A398155E8CD100F3587A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GCDTimerBlockingTest/GCDTimerBlockingTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A573A399155E8CD100F3587A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GCDTimerBlockingTest/GCDTimerBlockingTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A573A382155E8CCF00F3587A /* Build configuration list for PBXProject "GCDTimerBlockingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A573A395155E8CD100F3587A /* Debug */,
+				A573A396155E8CD100F3587A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A573A397155E8CD100F3587A /* Build configuration list for PBXNativeTarget "GCDTimerBlockingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A573A398155E8CD100F3587A /* Debug */,
+				A573A399155E8CD100F3587A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A573A37F155E8CCF00F3587A /* Project object */;
+}
